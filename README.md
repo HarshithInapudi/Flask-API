@@ -1,6 +1,8 @@
 # Flask-API
 
-install Python 3.8.0 install required packages using pip.
+install Python 3.8.0 
+
+install required packages using pip.
 
 pip install -r requirements.txt 
 
@@ -8,6 +10,6 @@ pip install -r requirements.txt
 
 you can run redis from C:\Program Files\Redis\redis-server
 
-make sure redis is running, then
+once redis is up and running, run the api using
 
 python run.py
