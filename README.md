@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 --On windows-- install redis from https://github.com/microsoftarchive/redis/releases/download/win-3.0.504/Redis-x64-3.0.504.msi 
 
-you can run redis from C:\Program Files\Redis\redis-server
+you can run redis from C:\Program Files\Redis\redis-server.exe
 
 once redis is up and running, run the api using
 
