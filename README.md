@@ -17,7 +17,9 @@ python run.py
 use the credentials(username as username, auth_id as password) from the sql dump file(https://gist.github.com/paragradke/a629bb4e332125b1388390fcc156cfcd) to login.
 
 
-Inbound API behaviour:
+API /inbound/sms/:
+
+API behaviour:
 
 1- If required parameter is missing, then it returns an error: "required parameter is missing"
 
@@ -29,7 +31,9 @@ used for the basic authentication then it returns an error: "to parameter not fo
  expire after 4 hours.
 
  
- Outbound API behaviour:
+ API /outbound/sms/:
+ 
+ API behaviour:
  
 1- If required parameter is missing, then it returns an error: "required parameter is missing"
  
