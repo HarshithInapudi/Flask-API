@@ -27,7 +27,7 @@ API behaviour:
 used for the basic authentication then it returns an error: "to parameter not found"
 
 3- When text is STOP or STOP\n or STOP\r or STOP\r\n
-- The ‘from’ and ‘to’ pair will be stored in cache as a unique entry and they
+ - The ‘from’ and ‘to’ pair will be stored in cache as a unique entry and they
  expire after 4 hours.
 
  
